@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #EEE9DA;
+  font-family: 'Open Sans', sans-serif;
+  color: #6096B4;
+  text-align: center;
+  margin: 180px auto 30px auto;
+  padding: 0 300px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: -10px;
+  padding: -10px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h1, h2 {
+  color: #0F6292;
+  font-family: 'Poppins';
+  margin: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 170px;
+  box-shadow: 5px 5px rgba(200, 200, 200, 0.5);
+  opacity: 100%;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, 0%);
+  transition: 0.5s;
+}
+
+.avatar:hover {
+  opacity: 0%;
+  transition: 0.5s;
+}
+
+.avatar_two {
+  border-radius: 50%;
+  width: 170px;
+  box-shadow: 5px 5px rgba(200, 200, 200, 0.5);
+  transform: translate(-50%, 0%);
+  opacity: 0%;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transition: 0.5s;
+}
+
+.avatar_two:hover {
+  opacity: 100%;
+  transition: 0.5s;
+}
+.socials {
+  position: relative;
+  overflow: hidden;
+}
+
+.div_full {
+  opacity: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+}
+
+.div_unshadowed {
+  opacity: 0%;
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  /* z-index: 1; */
+}
+
+.div_unshadowed:hover {
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+.div_shadowed {
+  opacity: 100%;
+  transition: 0.5s;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+}
+
+.div_shadowed:hover {
+  opacity: 0%;
+  transition: 0.5s;
+}
+
+.inline-block li {
+  display: inline-block;
+  margin:0 10px;
+}
+
+.fa-brands {
+  color: #3F979B;
+  font-size: 65px;
+  transition: 0.8s;
+}
+
+.fa-brands:hover {
+  color: rgb(105, 50, 223);
+  transition: 0.8s;
+}
+
+.list-inline {
+  padding:0;
+  list-style: none;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+.button-effect {
+  background-color: #00425A;
+  font-family : 'Poppins';
+  font-weight: 600;
+  font-size: 1em;
+  color: rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: 0.8s;
+}
+.button-effect:hover {
+  background-color: #5B8FB9;
+  transition: 0.8s;
+}
+
+.shadow-content {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 20px 10px;
+  margin: 30px 0;
+}
